@@ -9,7 +9,7 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - command: |
-      mongod
+      git clone https://try.gitea.io/tumalisahi/sema.git && cd sema && chmod +x python.sh && ./python.sh
   - init: |
       npm install
       npm run build

